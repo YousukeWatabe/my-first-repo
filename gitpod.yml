@@ -1,0 +1,6 @@
+tasks:
+  - name: nuxtApp
+    init: |
+      npm init -y
+      npm install nuxt
+    command: npm run dev
