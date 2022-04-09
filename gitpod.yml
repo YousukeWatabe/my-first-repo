@@ -1,6 +1,7 @@
 tasks:
   - name: nuxtApp
     init: |
+      cd /workspace/my-first-repo/nuxt
       npm init -y
       npm install nuxt
     command: npm run dev
